@@ -2,7 +2,7 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    - cron: "0 0 * * 1"  # Monday
+    - cron: "0 0 * * 1" # Monday
   workflow_dispatch:
 
 jobs:
