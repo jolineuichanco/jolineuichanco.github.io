@@ -365,5 +365,16 @@
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
+
+    {% if entry.keywords %}
+      <div class="keywords mt-2">
+      Keywords:
+        {% assign keyword_list = entry.keywords | split: "," %}
+        {% for keyword in keyword_list %}
+          <span class="keyword-badge">{{ keyword | strip }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}  
+
   </div>
 </div>
