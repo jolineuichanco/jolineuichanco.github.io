@@ -6,7 +6,6 @@ subtitle: >
   Associate Professor<br>
   Department of Technology Management and Innovation<br>
   Tandon School of Engineering<br>
-  Associated Faculty at Stern School of Business<br>
   New York University
 
 profile:
@@ -32,6 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+I am an Associate Professor of Technology Management and Innovation at the NYU Tandon School of Engineering. I also have an Associated Cross appointment with the NYU Stern School of Business in the Department of Technology, Operations and Statistics. 
 
 My research centers on operational strategies for effectively managing an organization's limited resources in meeting its objectives. Applications that I am interested in are revenue management and pricing, inventory management, and supply chain management. I address many such questions in the retailing domain, but I also address these questions in other sectors such as non-profits. I have worked with several major U.S. retailers on these topics, including Target, Best Buy, Kohl's, Office Depot, and Staples.
 
