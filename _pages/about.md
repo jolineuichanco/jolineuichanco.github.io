@@ -6,6 +6,7 @@ subtitle: >
   Associate Professor<br>
   Department of Technology Management and Innovation<br>
   Tandon School of Engineering<br>
+  Associated Faculty at Stern School of Business<br>
   New York University
 
 profile:
