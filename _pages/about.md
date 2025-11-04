@@ -31,13 +31,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Associate Professor of Technology Management and Innovation at the NYU Tandon School of Engineering. I also have an Associated Cross appointment with the NYU Stern School of Business in the Department of Technology, Operations and Statistics. 
+I'm an Associate Professor in the Department of Technology Management and Innovation at NYU Tandon School of Engineering, with an associated cross appointment at the Stern School of Business. My research focuses on resource allocation in complex systems—particularly in dynamical systems or networked environments where uncertainty and decisions propagate and interact in intricate ways.
 
-My research centers on operational strategies for effectively managing an organization's limited resources in meeting its objectives. Applications that I am interested in are revenue management and pricing, inventory management, and supply chain management. I address many such questions in the retailing domain, but I also address these questions in other sectors such as non-profits. I have worked with several major U.S. retailers on these topics, including Target, Best Buy, Kohl's, Office Depot, and Staples.
+I'm interested in how organizations make good decisions under uncertainty. This plays out across both demand-side controls (pricing, assortment optimization, choice architecture) and supply-side controls (inventory management, fulfillment, network design). Much of my work examines how these decisions ripple through systems over time, affecting stability, resilience, and performance. I approach these questions using tools from optimization and algorithm design, often with a data-driven or distributionally robust flavor when data is limited or uncertain.
 
-
-One of my research interests is on decision-making under uncertainty. Specifically, a research question that I ask is: How a firm can utilize its data in order to make data-driven decisions that are provably near-optimal? Or if data is not available, can a firm make decisions that are robust to some distributional ambiguity? 
-
-
-Another research interest is on studying new operations management problems inspired by the "new world of retail".  In recent years, the retail industry has seen significant innovations in the systems that support smoother product flow (e.g., omni-channel fulfillment, "return centers"), as well as the technologies that influence customer demand (e.g., social media, online platforms). In my research, I develop new analyses and optimization techniques for operations problems with these newly emerged dynamics of demand and supply.
+I collaborate closely with industry partners to ground my work in real-world challenges. Before joining NYU, I was a faculty at the University of Michigan, where I also served as Co-Director of the Tauber Institute for Global Operations. I'm always excited to work with PhD students who are passionate about bridging rigorous theory with practical impact—if that sounds like you, please reach out!
 
