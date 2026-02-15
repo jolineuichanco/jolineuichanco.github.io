@@ -7,6 +7,17 @@ nav: true
 nav_order: 1
 ---
 
+<!-- Bibsearch Feature -->
+{% include bib_search.liquid %}
+
+<!-- ALL PAPERS (temporary - to verify categories exist) -->
+<h2 class="category">All Papers</h2>
+<div class="publications">
+  {% bibliography %}
+</div>
+
+<hr>
+
 <!-- Social Impact -->
 <h2 class="category">Social Impact</h2>
 <p class="category-desc">Research addressing societal challenges, including humanitarian operations, disaster relief, and equitable access to resources.</p>
