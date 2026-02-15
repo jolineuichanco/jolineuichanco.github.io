@@ -11,6 +11,18 @@ nav_order: 1
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 
+<style>
+ol.bibliography {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 2em;
+}
+
+ol.bibliography li {
+  display: list-item;
+}
+</style>
+
 <!-- Social Impact -->
 <h2 class="category">Social Impact</h2>
 <p class="category-desc">Research addressing societal challenges, including humanitarian operations, disaster relief, and equitable access to resources.</p>
