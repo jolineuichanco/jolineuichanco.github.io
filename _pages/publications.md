@@ -21,7 +21,7 @@ nav_order: 1
 </div>
 
 <!-- Data-Driven and Robust -->
-<h2 class="category">Data-Driven and Robust</h2>
+<h2 class="category">Data-Driven and Robust Optimization</h2>
 <div class="publications">
   {% bibliography --query @*[category=Data-Driven and Robust] %}
 </div>
