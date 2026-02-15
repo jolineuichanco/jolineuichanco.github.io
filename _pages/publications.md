@@ -24,37 +24,30 @@ ol.bibliography li {
 </style>
 
 <!-- Social and Environmental Impact -->
-<h2 class="category">Social Impact</h2>
-<p class="category-desc">Research addressing societal challenges, including humanitarian operations, disaster relief, and equitable access to resources.</p>
-<ol class="publications">
-  {% bibliography --query @*[category=Social Impact] %}
+<h2 class="category">Social and Environmental Impact</h2>
+<p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, and sustainability.</p>
+<ol class="bibliography">
+  {% bibliography --query @*[category=Social and Environmental Impact] %}
 </ol>
 
-<!-- Revenue Management & Pricing -->
-<h2 class="category">Revenue Management & Pricing</h2>
-<p class="category-desc">Work on pricing strategies, assortment optimization, choice modeling, and dynamic pricing in retail and service industries.</p>
-<ol class="publications">
+<!-- Revenue Management -->
+<h2 class="category">Revenue Management</h2>
+<p class="category-desc">Research on pricing, assortment optimization, and demand management in retail and e-commerce.</p>
+<ol class="bibliography">
   {% bibliography --query @*[category=Revenue Management & Pricing] %}
 </ol>
 
 <!-- Supply Chain Management -->
 <h2 class="category">Supply Chain Management</h2>
-<p class="category-desc">Research on inventory management, distribution systems, supply chain coordination, and operational resilience.</p>
-<ol class="publications">
+<p class="category-desc">Research on inventory management, fulfillment operations, and retail network optimization.</p>
+<ol class="bibliography">
   {% bibliography --query @*[category=Supply Chain Management] %}
 </ol>
 
 <!-- Service Operations -->
-<h2 class="category">Others</h2>
-<p class="category-desc">Additional research spanning methodology development and cross-disciplinary applications.</p>
-<ol class="publications">
-  {% bibliography --query @*[category=Others] %}
-</ol>
-
-<!-- Others -->
-<h2 class="category">Others</h2>
-<p class="category-desc">Additional research spanning methodology development and cross-disciplinary applications.</p>
-<ol class="publications">
+<h2 class="category">Service Operations</h2>
+<p class="category-desc">Research on service system design, workforce management, and platform operations.</p>
+<ol class="bibliography">
   {% bibliography --query @*[category=Others] %}
 </ol>
 
