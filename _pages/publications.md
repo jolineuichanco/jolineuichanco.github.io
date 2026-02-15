@@ -9,20 +9,29 @@ nav_order: 1
 
 <!-- Social Impact -->
 <h2 class="category">Social Impact</h2>
+<p class="category-desc">Research addressing societal challenges, including humanitarian operations, disaster relief, and equitable access to resources.</p>
 <div class="publications">
-  {% bibliography --query @*[category=Social Impact] %}
+  {% bibliography --query @*[category~Social Impact] %}
 </div>
-
 
 <!-- Revenue Management & Pricing -->
 <h2 class="category">Revenue Management & Pricing</h2>
+<p class="category-desc">Work on pricing strategies, assortment optimization, choice modeling, and dynamic pricing in retail and service industries.</p>
 <div class="publications">
-  {% bibliography --query @*[category=Revenue Management & Pricing] %}
+  {% bibliography --query @*[category~Revenue Management & Pricing] %}
 </div>
 
-<!-- Data-Driven and Robust -->
-<h2 class="category">Data-Driven and Robust Optimization</h2>
+<!-- Supply Chain Management -->
+<h2 class="category">Supply Chain Management</h2>
+<p class="category-desc">Research on inventory management, distribution systems, supply chain coordination, and operational resilience.</p>
 <div class="publications">
-  {% bibliography --query @*[category=Data-Driven and Robust] %}
+  {% bibliography --query @*[category~Supply Chain Management] %}
+</div>
+
+<!-- Others -->
+<h2 class="category">Others</h2>
+<p class="category-desc">Additional research spanning methodology development and cross-disciplinary applications.</p>
+<div class="publications">
+  {% bibliography --query @*[category~Others] %}
 </div>
 
