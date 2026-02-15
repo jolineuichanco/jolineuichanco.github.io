@@ -30,20 +30,20 @@ nav_order: 1
 <h2 class="category">Revenue Management & Pricing</h2>
 <p class="category-desc">Work on pricing strategies, assortment optimization, choice modeling, and dynamic pricing in retail and service industries.</p>
 <div class="publications">
-  {% bibliography --query @*[category~Revenue Management & Pricing] %}
+  {% bibliography --query @*[category=Revenue Management & Pricing] %}
 </div>
 
 <!-- Supply Chain Management -->
 <h2 class="category">Supply Chain Management</h2>
 <p class="category-desc">Research on inventory management, distribution systems, supply chain coordination, and operational resilience.</p>
 <div class="publications">
-  {% bibliography --query @*[category~Supply Chain Management] %}
+  {% bibliography --query @*[category=Supply Chain Management] %}
 </div>
 
 <!-- Others -->
 <h2 class="category">Others</h2>
 <p class="category-desc">Additional research spanning methodology development and cross-disciplinary applications.</p>
 <div class="publications">
-  {% bibliography --query @*[category~Others] %}
+  {% bibliography --query @*[category=Others] %}
 </div>
 
