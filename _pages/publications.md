@@ -23,7 +23,7 @@ nav_order: 1
 <h2 class="category">Social Impact</h2>
 <p class="category-desc">Research addressing societal challenges, including humanitarian operations, disaster relief, and equitable access to resources.</p>
 <div class="publications">
-  {% bibliography --query @*[category~Social Impact] %}
+  {% bibliography --query @*[category=Social Impact] %}
 </div>
 
 <!-- Revenue Management & Pricing -->
