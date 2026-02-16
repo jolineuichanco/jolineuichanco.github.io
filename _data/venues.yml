@@ -1,9 +1,73 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Published Journals
+"Math. of OR":
+  color: "#5E35B1"  # Deep purple - complements your theme
+  url: https://pubsonline.informs.org/journal/moor
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MSOM":
+  color: "#00897B"  # Teal - works with both purple and cyan
+  url: https://pubsonline.informs.org/journal/msom
 
-"Vision":
-  color: "#009f36"
+"OR":
+  color: "#1E88E5"  # Blue - professional and readable
+  url: https://pubsonline.informs.org/journal/opre
+
+"MS":
+  color: "#3949AB"  # Indigo - coordinates with purple theme
+  url: https://pubsonline.informs.org/journal/mnsc
+
+"NRL":
+  color: "#D84315"  # Deep orange - distinct but not jarring
+  url: https://onlinelibrary.wiley.com/journal/15206750
+
+"Math. Finance":
+  color: "#6A1B9A"  # Purple - harmonizes with theme
+  url: https://onlinelibrary.wiley.com/journal/14679965
+
+# Paper Statuses - Positive (accepted/nearly there)
+"To appear":
+  color: "#43A047"  # Green - positive signal
+
+"Accepted":
+  color: "#43A047"  # Same green
+
+# Paper Statuses - In Progress (good news)
+"R&R":
+  color: "#7CB342"  # Light green - positive but still in progress
+
+"Minor Revision":
+  color: "#7CB342"  # Same as R&R
+
+"Major Revision":
+  color: "#9CCC65"  # Lighter green - positive but more work needed
+
+"Revise and Resubmit":
+  color: "#7CB342"  # Same as R&R
+
+# Paper Statuses - Waiting
+"Under Review":
+  color: "#FFA726"  # Warm orange - in progress, waiting
+
+"Submitted":
+  color: "#FFA726"  # Same as Under Review
+
+# Paper Statuses - Early Stage
+"Working Paper":
+  color: "#EF6C00"  # Darker orange - active development
+
+"In Preparation":
+  color: "#EF6C00"  # Same as Working Paper
+
+"Draft":
+  color: "#EF6C00"  # Same as Working Paper
+
+# Preprints/Repositories
+"Preprint":
+  color: "#757575"  # Gray - neutral
+
+"SSRN":
+  color: "#1976D2"  # Medium blue
+  url: https://www.ssrn.com/
+
+"arXiv":
+  color: "#B71C1C"  # arXiv red
+  url: https://arxiv.org/
