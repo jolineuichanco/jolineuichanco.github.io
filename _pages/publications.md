@@ -13,6 +13,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<hr style="border-top: 2px solid var(--global-divider-color);">
+
 <!-- Social and Environmental Impact -->
 <div id="social-impact">
   <h2 class="category">Social and Environmental Impact</h2>
@@ -21,6 +23,8 @@ nav_order: 2
     {% bibliography --query @*[category=Social and Environmental Impact] %}
   </div>
 </div>
+
+<hr style="border-top: 2px solid var(--global-divider-color);">
 
 <!-- Revenue Management -->
 <div id="revenue-management">
@@ -31,6 +35,8 @@ nav_order: 2
   </div>
 </div>
 
+<hr style="border-top: 2px solid var(--global-divider-color);">
+
 <!-- Supply Chain Management -->
 <div id="supply-chain">
   <h2 class="category">Supply Chain Management</h2>
@@ -39,6 +45,8 @@ nav_order: 2
     {% bibliography --query @*[category=Supply Chain Management] %}
   </div>
 </div>
+
+<hr style="border-top: 2px solid var(--global-divider-color);">
 
 <!-- Service Operations -->
 <div id="service-operations">
