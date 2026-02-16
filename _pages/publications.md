@@ -7,11 +7,45 @@ nav: true
 nav_order: 2
 ---
 
+<!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <!-- Social and Environmental Impact -->
-<h2 class="category">Social and Environmental Impact</h2>
-<p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, and sustainability.</p>
-<div class="publications">
-  {% bibliography --query @*[category=Social and Environmental Impact] %}
+<div id="social-impact">
+  <h2 class="category">Social and Environmental Impact</h2>
+  <p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, and sustainability.</p>
+  <div class="publications">
+    {% bibliography --query @*[category=Social and Environmental Impact] %}
+  </div>
 </div>
 
+<!-- Revenue Management -->
+<div id="revenue-management">
+  <h2 class="category">Revenue Management</h2>
+  <p class="category-desc">Research on pricing, assortment optimization, and demand management in retail and e-commerce.</p>
+  <div class="publications">
+    {% bibliography --query @*[category=Revenue Management & Pricing] %}
+  </div>
+</div>
+
+<!-- Supply Chain Management -->
+<div id="supply-chain">
+  <h2 class="category">Supply Chain Management</h2>
+  <p class="category-desc">Research on inventory management, fulfillment operations, and retail network optimization.</p>
+  <div class="publications">
+    {% bibliography --query @*[category=Supply Chain Management] %}
+  </div>
+</div>
+
+<!-- Service Operations -->
+<div id="service-operations">
+  <h2 class="category">Service Operations</h2>
+  <p class="category-desc">Research on service system design, workforce management, and platform operations.</p>
+  <div class="publications">
+    {% bibliography --query @*[category=Others] %}
+  </div>
+</div>
 
