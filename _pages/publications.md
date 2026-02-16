@@ -7,16 +7,11 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
+<!-- Social and Environmental Impact -->
+<h2 class="category">Social and Environmental Impact</h2>
+<p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, and sustainability.</p>
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography --query @*[category=Social and Environmental Impact] %}
 </div>
 
 
