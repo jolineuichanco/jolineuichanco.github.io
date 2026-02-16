@@ -11,43 +11,31 @@ nav_order: 1
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 
-<style>
-ol.bibliography {
-  list-style-type: decimal;
-  list-style-position: outside;
-  padding-left: 2em;
-}
-
-ol.bibliography li {
-  display: list-item;
-}
-</style>
-
 <!-- Social and Environmental Impact -->
 <h2 class="category">Social and Environmental Impact</h2>
 <p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, and sustainability.</p>
-<ol class="bibliography">
+<div class="bibliography">
   {% bibliography --query @*[category=Social and Environmental Impact] %}
-</ol>
+</div>
 
 <!-- Revenue Management -->
 <h2 class="category">Revenue Management</h2>
 <p class="category-desc">Research on pricing, assortment optimization, and demand management in retail and e-commerce.</p>
-<ol class="bibliography">
+<div class="bibliography">
   {% bibliography --query @*[category=Revenue Management & Pricing] %}
-</ol>
+</div>
 
 <!-- Supply Chain Management -->
 <h2 class="category">Supply Chain Management</h2>
 <p class="category-desc">Research on inventory management, fulfillment operations, and retail network optimization.</p>
-<ol class="bibliography">
+<div class="bibliography">
   {% bibliography --query @*[category=Supply Chain Management] %}
-</ol>
+</div>
 
 <!-- Service Operations -->
 <h2 class="category">Service Operations</h2>
 <p class="category-desc">Research on service system design, workforce management, and platform operations.</p>
-<ol class="bibliography">
+<div class="bibliography">
   {% bibliography --query @*[category=Others] %}
-</ol>
+</div>
 
