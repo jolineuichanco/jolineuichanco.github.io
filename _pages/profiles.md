@@ -17,8 +17,7 @@ nav_order: 3
       <div class="more-info mt-3">
         <p class="mb-1"><strong>Xiyu Pan</strong></p>
         <p class="mb-1">Postdoctoral Researcher</p>
-        <p class="mb-1">NYU Tandon School of Engineering</p>
-        <p class="mb-1">PhD, Georgia Institute of Technology (2025)</p>
+        <p class="mb-1"><small><em>Co-advised with Prof. Takahiro Yabe</em></small></p>
         <p class="mb-0">xp2239@nyu.edu</p>
       </div>
     </div>
@@ -34,6 +33,7 @@ nav_order: 3
         <p class="mb-1"><strong>Hanqi Wen</strong></p>
         <p class="mb-1">PhD Candidate (expected graduation, 2027)</p>
         <p class="mb-1">University of Michigan, Ross School of Business</p>
+        <p class="mb-1"><small><em>Co-advised with Prof. Izak Duenyas</em></small></p>
         <p class="mb-0">hanqiwen@umich.edu</p>
       </div>
     </div>
@@ -46,6 +46,7 @@ nav_order: 3
         <p class="mb-1"><strong>Bogyeom Lee</strong></p>
         <p class="mb-1">PhD Candidate (expected graduation, 2029)</p>
         <p class="mb-1">University of Michigan, Ross School of Business</p>
+        <p class="mb-1"><small><em>Co-advised with Prof. Hyun-Soo Ahn</em></small></p>
         <p class="mb-0">bogyeom@umich.edu</p>
       </div>
     </div>
@@ -55,6 +56,8 @@ nav_order: 3
 <hr style="margin: 3rem 0;">
 
 <h2>Alumni</h2>
+
+<h3>PhD Alumni</h3>
 
 <div class="row">
   <div class="col-sm-12 mb-2">
@@ -70,5 +73,19 @@ nav_order: 3
   <div class="col-sm-12 mb-2">
     <p class="mb-0"><strong>Aravind Govindarajan</strong> (PhD 2019)<br>
     <em>Current Position:</em> Director of Data Science, Target Corporation</p>
+  </div>
+</div>
+
+<h3 class="mt-4">Predoctoral Students & Research Assistants</h3>
+
+<div class="row">
+  <div class="col-sm-12 mb-2">
+    <p class="mb-0"><strong>Zhuoxin Chen</strong> (Summer 2025)<br>
+    <em>Current Position:</em> Applying for PhD programs </p>
+  </div>
+
+  <div class="col-sm-12 mb-2">
+    <p class="mb-0"><strong>Benjamin Lewis</strong> (Predoctoral Fellow, 2023-2024)<br>
+    <em>Current Position:</em> PhD Student in Marketing, MIT Sloan School of Management</p>
   </div>
 </div>
