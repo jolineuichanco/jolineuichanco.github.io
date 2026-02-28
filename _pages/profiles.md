@@ -55,6 +55,17 @@ nav_order: 3
 
 <hr style="margin: 3rem 0;">
 
+<h2>Incoming Students</h2>
+
+<div class="row">
+  <div class="col-sm-12 mb-2">
+    <p class="mb-0"><strong>Weixiao Wang</strong><br>
+    <em>PhD Student, joining Fall 2026</em></p>
+  </div>
+</div>
+
+<hr style="margin: 3rem 0;">
+
 <h2>Alumni</h2>
 
 <h3>PhD Alumni</h3>
