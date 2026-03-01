@@ -15,9 +15,9 @@ nav_order: 3
         style="width: 200px; height: 200px; object-fit: cover; object-position: center 20%;" 
         alt="Joline Uichanco">
       <div class="more-info mt-3">
-        <p class="mb-1"><strong>Joline Uichanco</strong></p>
-        <p class="mb-1">Associate Professor</p>
-        <p class="mb-1">NYU Tandon School of Engineering</p>
+        <p class="mb-0"><strong>Joline Uichanco</strong></p>
+        <p class="mb-0">Associate Professor</p>
+        <p class="mb-0">NYU Tandon School of Engineering</p>
         <p class="mb-0">joline.uichanco@nyu.edu</p>
       </div>
     </div>
@@ -33,9 +33,9 @@ nav_order: 3
     <div class="text-center">
       <img src="/assets/img/xiyu.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Xiyu Pan">
       <div class="more-info mt-3">
-        <p class="mb-1"><strong>Xiyu Pan</strong></p>
-        <p class="mb-1">Postdoctoral Researcher</p>
-        <p class="mb-1"><small><em>Co-advised with Prof. Takahiro Yabe</em></small></p>
+        <p class="mb-0"><strong>Xiyu Pan</strong></p>
+        <p class="mb-0">Postdoctoral Researcher</p>
+        <p class="mb-0"><small><em>Co-advised with Prof. Takahiro Yabe</em></small></p>
         <p class="mb-0">xp2239@nyu.edu</p>
       </div>
     </div>
@@ -48,10 +48,10 @@ nav_order: 3
     <div class="text-center">
       <img src="/assets/img/hanqi.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Hanqi Wen">
       <div class="more-info mt-3">
-        <p class="mb-1"><strong>Hanqi Wen</strong></p>
-        <p class="mb-1">PhD Candidate (expected graduation, 2027)</p>
-        <p class="mb-1">University of Michigan, Ross School of Business</p>
-        <p class="mb-1"><small><em>Co-advised with Prof. Izak Duenyas</em></small></p>
+        <p class="mb-0"><strong>Hanqi Wen</strong></p>
+        <p class="mb-0">PhD Candidate (expected graduation, 2027)</p>
+        <p class="mb-0">University of Michigan, Ross School of Business</p>
+        <p class="mb-0"><small><em>Co-advised with Prof. Izak Duenyas</em></small></p>
         <p class="mb-0">hanqiwen@umich.edu</p>
       </div>
     </div>
@@ -61,10 +61,10 @@ nav_order: 3
     <div class="text-center">
       <img src="/assets/img/bogyeom.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Bogyeom Lee">
       <div class="more-info mt-3">
-        <p class="mb-1"><strong>Bogyeom Lee</strong></p>
-        <p class="mb-1">PhD Candidate (expected graduation, 2029)</p>
-        <p class="mb-1">University of Michigan, Ross School of Business</p>
-        <p class="mb-1"><small><em>Co-advised with Prof. Hyun-Soo Ahn</em></small></p>
+        <p class="mb-0"><strong>Bogyeom Lee</strong></p>
+        <p class="mb-0">PhD Candidate (expected graduation, 2029)</p>
+        <p class="mb-0">University of Michigan, Ross School of Business</p>
+        <p class="mb-0"><small><em>Co-advised with Prof. Hyun-Soo Ahn</em></small></p>
         <p class="mb-0">bogyeom@umich.edu</p>
       </div>
     </div>
