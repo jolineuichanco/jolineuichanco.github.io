@@ -31,9 +31,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an Associate Professor in the Department of Technology Management and Innovation at NYU Tandon School of Engineering, with an associated cross appointment at the Stern School of Business. My research focuses on resource allocation in complex systems—particularly in dynamical systems or networked environments where uncertainty and decisions propagate and interact in intricate ways.
+I'm an Associate Professor in the Department of Technology Management and Innovation at NYU Tandon School of Engineering, with an associated cross appointment at the Stern School of Business. I lead the **DECODE Lab** (Data-Enabled Choices, Optimization and Decision Engineering), where we study how organizations can make better decisions under uncertainty.
 
-I'm interested in how organizations make good decisions under uncertainty. This plays out across both demand-side controls (pricing, assortment optimization, choice architecture) and supply-side controls (inventory management, fulfillment, network design). Much of my work examines how these decisions ripple through systems over time, affecting stability, resilience, and performance. I approach these questions using tools from optimization and algorithm design, often with a data-driven or distributionally robust flavor when data is limited or uncertain.
+My research focuses on resource allocation in complex systems, particularly in dynamic or networked environments where uncertainty and decisions propagate and interact in intricate ways. I'm interested in both demand-side controls (pricing, assortment optimization, choice architecture) and supply-side controls (inventory management, fulfillment, network design). I approach these questions using tools from optimization and algorithm design, often with a data-driven or distributionally robust flavor when data is limited or uncertain.
 
-I collaborate closely with industry partners to ground my work in real-world challenges. Before joining NYU, I was a faculty at the University of Michigan, where I also served as Co-Director of the Tauber Institute for Global Operations. I'm always excited to work with PhD students who are passionate about bridging rigorous theory with practical impact—if that sounds like you, please reach out!
+Before joining NYU, I was a faculty at the University of Michigan, where I also served as Co-Director of the Tauber Institute for Global Operations. 
+
+I'm always excited to work with PhD students who are passionate about bridging rigorous theory with practical impact—if that sounds like you, please reach out!
 
