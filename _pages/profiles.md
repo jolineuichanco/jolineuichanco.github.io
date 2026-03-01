@@ -11,7 +11,7 @@ nav_order: 3
 <div class="row mb-4">
   <div class="col-sm-6 offset-sm-3">
     <div class="text-center">
-      <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Joline Uichanco">
+      <img src="/assets/img/joline.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Joline Uichanco">
       <div class="more-info mt-3">
         <p class="mb-1"><strong>Joline Uichanco</strong></p>
         <p class="mb-1">Associate Professor</p>
