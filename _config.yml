@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Joline Uichanco # the website title (if blank, full name will be used instead)
 first_name: Joline
 middle_name: 
 last_name: Uichanco
 email: joline.uichanco@nyu.edu
-description: > 
+description: >
   DECODE Lab — Data-Enabled Choices, Optimization, and Decision Engineering.
   Research group of Joline Uichanco at NYU Tandon School of Engineering.
 footer_text: >
