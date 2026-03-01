@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an Associate Professor in the Department of Technology Management and Innovation at NYU Tandon School of Engineering, with an associated cross appointment at the Stern School of Business. I lead the **DECODE Lab** (Data-Enabled Choices, Optimization and Decision Engineering), where we study how organizations can make better decisions under uncertainty.
+I'm an Associate Professor in the Department of Technology Management and Innovation at NYU Tandon School of Engineering, with an associated cross appointment at the Stern School of Business. I lead the **DECODE Lab** (Data-Enabled Computation, Optimization and Decision Engineering), where we study how organizations can make better decisions under uncertainty.
 
 My research focuses on resource allocation in complex systems, particularly in dynamic or networked environments where uncertainty and decisions propagate and interact in intricate ways. I'm interested in both demand-side controls (pricing, assortment optimization, choice architecture) and supply-side controls (inventory management, fulfillment, network design). I approach these questions using tools from optimization and algorithm design, often with a data-driven or distributionally robust flavor when data is limited or uncertain.
 
