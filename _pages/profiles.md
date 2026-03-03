@@ -76,11 +76,18 @@ nav_order: 3
 <h2>Incoming Students</h2>
 
 <div class="row">
-  <div class="col-sm-12 mb-2">
-    <p class="mb-0"><strong>Weixiao Wang</strong><br>
-    <em>PhD Student, joining Fall 2026</em></p>
+  <div class="col-sm-6 offset-sm-3">
+    <div class="text-center">
+      <img src="/assets/img/weixiao.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="[Student Name]">
+      <div class="more-info mt-3">
+        <p class="mb-0"><strong>Weixiao Wang</strong></p>
+        <p class="mb-0">PhD Student (joining Fall 2026)</p>
+        <p class="mb-0">NYU Tandon School of Engineering</p>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <hr style="margin: 3rem 0;">
 
