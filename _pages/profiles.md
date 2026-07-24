@@ -117,7 +117,7 @@ nav_order: 3
 <div class="row">
   <div class="col-sm-12 mb-2">
     <p class="mb-0"><strong>Zhuoxin Chen</strong> (Summer 2025)<br>
-    <em>Current Position:</em> Applying for PhD programs </p>
+    <em>Current Position:</em> PhD Student in Columbia University DRO </p>
   </div>
 
   <div class="col-sm-12 mb-2">
