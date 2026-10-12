@@ -48,10 +48,11 @@ nav_order: 3
     <div class="text-center">
       <img src="/assets/img/hanqi.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Hanqi Wen">
       <div class="more-info mt-3">
-        <p class="mb-0"><strong>Hanqi Wen</strong></p>
+        <p class="mb-0"><strong><a href="https://hanqiwen.com/">Hanqi Wen</a></strong></p>
         <p class="mb-0">PhD Candidate (expected graduation, 2027)</p>
         <p class="mb-0">University of Michigan, Ross School of Business</p>
         <p class="mb-0"><small><em>Co-advised with Prof. Izak Duenyas</em></small></p>
+        <p class="mb-0"><strong>On the 2026-27 academic job market</strong></p>
         <p class="mb-0">hanqiwen@umich.edu</p>
       </div>
     </div>
@@ -71,23 +72,19 @@ nav_order: 3
   </div>
 </div>
 
-<hr style="margin: 3rem 0;">
-
-<h2>Incoming Students</h2>
-
-<div class="row">
+<!-- PhD Student - Centered Bottom Row -->
+<div class="row mt-4">
   <div class="col-sm-6 offset-sm-3">
     <div class="text-center">
-      <img src="/assets/img/weixiao.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="[Student Name]">
+      <img src="/assets/img/weixiao.jpg" class="img-fluid z-depth-1 rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Weixiao Wang">
       <div class="more-info mt-3">
         <p class="mb-0"><strong>Weixiao Wang</strong></p>
-        <p class="mb-0">PhD Student (joining Fall 2026)</p>
+        <p class="mb-0">PhD Student (since Fall 2026)</p>
         <p class="mb-0">NYU Tandon School of Engineering</p>
       </div>
     </div>
   </div>
 </div>
-
 
 <hr style="margin: 3rem 0;">
 
