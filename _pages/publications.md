@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Research at the intersection of data, uncertainty, and operational decisions.
 nav: true
 nav_order: 2
@@ -33,12 +33,12 @@ nav_order: 2
   .topic-pill.active .count { color: inherit; }
   #topic-title {
     color: var(--global-theme-color);
-    font-size: 1.5rem;
-    margin: 1rem 0 0;
+    font-size: 2rem;
+    margin: 1.5rem 0 0;
   }
   #topic-title:empty { display: none; }
-  #topic-desc { margin: 0.5rem 0 0; color: var(--global-text-color-light); }
-  .author-legend { font-size: 0.8rem; color: var(--global-text-color-light); margin: 0.25rem 0 0; }
+  #topic-desc { margin: 0.5rem 0 0; font-size: 1.1rem; color: var(--global-text-color); }
+  .author-legend { font-size: 0.95rem; color: var(--global-text-color-light); margin: 0.75rem 0 0; }
   #pub-list .keywords { display: none; }
 </style>
 
