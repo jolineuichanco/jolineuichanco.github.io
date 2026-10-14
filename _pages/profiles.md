@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: people
-description: members of my research group
+title: People
+description: Members of the DECODE group
 nav: true
 nav_order: 3
 ---
