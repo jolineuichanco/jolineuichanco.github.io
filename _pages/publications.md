@@ -31,6 +31,12 @@ nav_order: 2
     color: var(--global-bg-color);
   }
   .topic-pill.active .count { color: inherit; }
+  #topic-title {
+    color: var(--global-theme-color);
+    font-size: 1.5rem;
+    margin: 1rem 0 0;
+  }
+  #topic-title:empty { display: none; }
   #topic-desc { margin: 0.5rem 0 0; color: var(--global-text-color-light); min-height: 1.5em; }
 </style>
 
@@ -38,9 +44,8 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="topic-pills" id="topic-pills"></div>
+<h3 id="topic-title"></h3>
 <p id="topic-desc"></p>
-
-<hr style="border-top: 2px solid var(--global-divider-color);">
 
 <div id="pub-list">
   <div class="publications">
@@ -83,6 +88,7 @@ nav_order: 2
 
     // Filter buttons with paper counts
     var pillBar = document.getElementById("topic-pills");
+    var title = document.getElementById("topic-title");
     var desc = document.getElementById("topic-desc");
     function addPill(label, key, count) {
       var b = document.createElement("button");
@@ -107,11 +113,12 @@ nav_order: 2
         }
         h.style.display = any ? "" : "none";
       });
-      // Update buttons and description
+      // Update buttons, title, and description
       pillBar.querySelectorAll(".topic-pill").forEach(function (p) {
         p.classList.toggle("active", p.dataset.key === key);
       });
       var match = TOPICS.filter(function (t) { return t[0] === key; })[0];
+      title.textContent = match ? match[0] : "";
       desc.textContent = match ? match[1] : "";
     }
 
