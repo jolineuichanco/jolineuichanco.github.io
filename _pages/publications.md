@@ -26,6 +26,9 @@ nav_order: 2
   }
   .pub-view { display: none; }
   .pub-view.active { display: block; }
+  #by-year h2.bibliography {
+    color: var(--global-theme-color);
+  }
 </style>
 
 <!-- Bibsearch Feature -->
