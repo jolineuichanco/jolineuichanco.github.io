@@ -29,6 +29,27 @@ nav_order: 2
   #by-year h2.bibliography {
     color: var(--global-theme-color);
   }
+
+  .topic-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 1.5rem; }
+  .topic-pill {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    padding: 0.25rem 0.85rem;
+    background: transparent;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .topic-pill:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
+  .topic-pill .count { margin-left: 0.35rem; color: var(--global-text-color-light); }
+  .topic-pill.active {
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+  .topic-pill.active .count { color: inherit; }
+  .topic-section { border-top: 2px solid var(--global-divider-color); padding-top: 1rem; margin-top: 2rem; }
+  .topic-section:first-of-type, #by-topic.filtered .topic-section { border-top: none; margin-top: 0; }
 </style>
 
 <!-- Bibsearch Feature -->
@@ -45,42 +66,46 @@ nav_order: 2
 <!-- ===================== BY TOPIC ===================== -->
 <div id="by-topic" class="pub-view active">
 
-  <h2 class="category">Social and Environmental Impact</h2>
-  <p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, sustainability, and public safety.</p>
-  <div class="publications">
-    <ol class="bibliography topic-list" data-topic="Social and Environmental Impact"></ol>
+  <div class="topic-pills" id="topic-pills"></div>
+
+  <div class="topic-section" data-topic="Social and Environmental Impact">
+    <h2 class="category">Social and Environmental Impact</h2>
+    <p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, sustainability, and public safety.</p>
+    <div class="publications">
+      <ol class="bibliography topic-list" data-topic="Social and Environmental Impact"></ol>
+    </div>
   </div>
 
-  <hr style="border-top: 2px solid var(--global-divider-color);">
-
-  <h2 class="category">Revenue Management</h2>
-  <p class="category-desc">Research on pricing, assortment optimization, and choice modeling.</p>
-  <div class="publications">
-    <ol class="bibliography topic-list" data-topic="Revenue Management"></ol>
+  <div class="topic-section" data-topic="Revenue Management">
+    <h2 class="category">Revenue Management</h2>
+    <p class="category-desc">Research on pricing, assortment optimization, and choice modeling.</p>
+    <div class="publications">
+      <ol class="bibliography topic-list" data-topic="Revenue Management"></ol>
+    </div>
   </div>
 
-  <hr style="border-top: 2px solid var(--global-divider-color);">
-
-  <h2 class="category">Digital Commerce</h2>
-  <p class="category-desc">Research on e-commerce, online marketplaces, and omnichannel retail.</p>
-  <div class="publications">
-    <ol class="bibliography topic-list" data-topic="Digital Commerce"></ol>
+  <div class="topic-section" data-topic="Digital Commerce">
+    <h2 class="category">Digital Commerce</h2>
+    <p class="category-desc">Research on e-commerce, online marketplaces, and omnichannel retail.</p>
+    <div class="publications">
+      <ol class="bibliography topic-list" data-topic="Digital Commerce"></ol>
+    </div>
   </div>
 
-  <hr style="border-top: 2px solid var(--global-divider-color);">
-
-  <h2 class="category">New Products and Innovation</h2>
-  <p class="category-desc">Research on new product introduction, product development, and customer feedback.</p>
-  <div class="publications">
-    <ol class="bibliography topic-list" data-topic="New Products and Innovation"></ol>
+  <div class="topic-section" data-topic="New Products and Innovation">
+    <h2 class="category">New Products and Innovation</h2>
+    <p class="category-desc">Research on new product introduction, product development, and customer feedback.</p>
+    <div class="publications">
+      <ol class="bibliography topic-list" data-topic="New Products and Innovation"></ol>
+    </div>
   </div>
 
-  <hr style="border-top: 2px solid var(--global-divider-color);">
-
-  <h2 class="category">Optimization under Uncertainty</h2>
-  <p class="category-desc">Research on data-driven and distributionally robust decision-making when distributions or parameters are unknown.</p>
-  <div class="publications">
-    <ol class="bibliography topic-list" data-topic="Optimization under Uncertainty"></ol>
+  <div class="topic-section" data-topic="Optimization under Uncertainty">
+    <h2 class="category">Optimization under Uncertainty</h2>
+    <p class="category-desc">Research on data-driven and distributionally robust decision-making when distributions or parameters are unknown.</p>
+    <div class="publications">
+      <ol class="bibliography topic-list" data-topic="Optimization under Uncertainty"></ol>
+    </div>
   </div>
 
 </div>
@@ -105,6 +130,33 @@ nav_order: 2
         var topics = row.getAttribute("data-topics").split(";").map(function (t) { return t.trim(); });
         if (topics.indexOf(topic) !== -1) ol.appendChild(li.cloneNode(true));
       });
+    });
+
+    // Topic filter pills with paper counts
+    var byTopic = document.getElementById("by-topic");
+    var pillBar = document.getElementById("topic-pills");
+    var sections = document.querySelectorAll(".topic-section");
+    function addPill(label, key, count) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "topic-pill" + (key === "all" ? " active" : "");
+      b.dataset.key = key;
+      b.innerHTML = label + '<span class="count">' + count + "</span>";
+      b.addEventListener("click", function () { filterTopic(key); });
+      pillBar.appendChild(b);
+    }
+    function filterTopic(key) {
+      sections.forEach(function (s) {
+        s.style.display = (key === "all" || s.dataset.topic === key) ? "" : "none";
+      });
+      byTopic.classList.toggle("filtered", key !== "all");
+      pillBar.querySelectorAll(".topic-pill").forEach(function (p) {
+        p.classList.toggle("active", p.dataset.key === key);
+      });
+    }
+    addPill("All", "all", allItems.length);
+    sections.forEach(function (s) {
+      addPill(s.dataset.topic, s.dataset.topic, s.querySelectorAll("ol.topic-list > li").length);
     });
 
     // Insert a year heading wherever the year changes in the by-year list
