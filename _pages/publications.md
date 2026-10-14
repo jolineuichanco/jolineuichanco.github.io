@@ -37,7 +37,9 @@ nav_order: 2
     margin: 1rem 0 0;
   }
   #topic-title:empty { display: none; }
-  #topic-desc { margin: 0.5rem 0 0; color: var(--global-text-color-light); min-height: 1.5em; }
+  #topic-desc { margin: 0.5rem 0 0; color: var(--global-text-color-light); }
+  .author-legend { font-size: 0.8rem; color: var(--global-text-color-light); margin: 0.25rem 0 0; }
+  #pub-list .keywords { display: none; }
 </style>
 
 <!-- Bibsearch Feature -->
@@ -46,6 +48,7 @@ nav_order: 2
 <div class="topic-pills" id="topic-pills"></div>
 <h3 id="topic-title"></h3>
 <p id="topic-desc"></p>
+<p class="author-legend">* Advised student or postdoc at the time of the research &nbsp;&nbsp; † Industry collaborator</p>
 
 <div id="pub-list">
   <div class="publications">
