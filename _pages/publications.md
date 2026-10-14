@@ -45,42 +45,42 @@ nav_order: 2
 <!-- ===================== BY TOPIC ===================== -->
 <div id="by-topic" class="pub-view active">
 
-  <div id="social-impact">
-    <h2 class="category">Social and Environmental Impact</h2>
-    <p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, and sustainability.</p>
-    <div class="publications">
-      {% bibliography --query @*[category=Social and Environmental Impact] %}
-    </div>
+  <h2 class="category">Social and Environmental Impact</h2>
+  <p class="category-desc">Research on humanitarian operations, disaster relief, nonprofit management, sustainability, and public safety.</p>
+  <div class="publications">
+    <ol class="bibliography topic-list" data-topic="Social and Environmental Impact"></ol>
   </div>
 
   <hr style="border-top: 2px solid var(--global-divider-color);">
 
-  <div id="revenue-management">
-    <h2 class="category">Revenue Management</h2>
-    <p class="category-desc">Research on pricing, assortment optimization, and demand management in retail and e-commerce.</p>
-    <div class="publications">
-      {% bibliography --query @*[category=Revenue Management & Pricing] %}
-    </div>
+  <h2 class="category">Revenue Management</h2>
+  <p class="category-desc">Research on pricing, assortment optimization, and choice modeling.</p>
+  <div class="publications">
+    <ol class="bibliography topic-list" data-topic="Revenue Management"></ol>
   </div>
 
   <hr style="border-top: 2px solid var(--global-divider-color);">
 
-  <div id="supply-chain">
-    <h2 class="category">Supply Chain Management</h2>
-    <p class="category-desc">Research on inventory management, fulfillment operations, and retail network optimization.</p>
-    <div class="publications">
-      {% bibliography --query @*[category=Supply Chain Management] %}
-    </div>
+  <h2 class="category">Digital Commerce</h2>
+  <p class="category-desc">Research on e-commerce, online marketplaces, and omnichannel retail.</p>
+  <div class="publications">
+    <ol class="bibliography topic-list" data-topic="Digital Commerce"></ol>
   </div>
 
   <hr style="border-top: 2px solid var(--global-divider-color);">
 
-  <div id="service-operations">
-    <h2 class="category">Service Operations</h2>
-    <p class="category-desc">Research on service system design, workforce management, and platform operations.</p>
-    <div class="publications">
-      {% bibliography --query @*[category=Others] %}
-    </div>
+  <h2 class="category">New Products and Innovation</h2>
+  <p class="category-desc">Research on new product introduction, product development, and customer feedback.</p>
+  <div class="publications">
+    <ol class="bibliography topic-list" data-topic="New Products and Innovation"></ol>
+  </div>
+
+  <hr style="border-top: 2px solid var(--global-divider-color);">
+
+  <h2 class="category">Optimization under Uncertainty</h2>
+  <p class="category-desc">Research on data-driven and distributionally robust decision-making when distributions or parameters are unknown.</p>
+  <div class="publications">
+    <ol class="bibliography topic-list" data-topic="Optimization under Uncertainty"></ol>
   </div>
 
 </div>
@@ -94,9 +94,22 @@ nav_order: 2
 
 <script>
   (function () {
+    var allItems = document.querySelectorAll("#by-year ol.bibliography > li");
+
+    // Copy each paper into every topic section it is tagged with
+    document.querySelectorAll("#by-topic .topic-list").forEach(function (ol) {
+      var topic = ol.getAttribute("data-topic");
+      allItems.forEach(function (li) {
+        var row = li.querySelector("[data-topics]");
+        if (!row) return;
+        var topics = row.getAttribute("data-topics").split(";").map(function (t) { return t.trim(); });
+        if (topics.indexOf(topic) !== -1) ol.appendChild(li.cloneNode(true));
+      });
+    });
+
     // Insert a year heading wherever the year changes in the by-year list
     var lastYear = null;
-    document.querySelectorAll("#by-year ol.bibliography > li").forEach(function (li) {
+    allItems.forEach(function (li) {
       var row = li.querySelector("[data-year]");
       if (!row) return;
       var year = row.getAttribute("data-year");
