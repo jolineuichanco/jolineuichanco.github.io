@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Research at the intersection of data, uncertainty, and operational decisions.
 nav: true
 nav_order: 2
@@ -48,7 +48,7 @@ nav_order: 2
 <div class="topic-pills" id="topic-pills"></div>
 <h3 id="topic-title"></h3>
 <p id="topic-desc"></p>
-<p class="author-legend">* Advised student or postdoc at the time of the research &nbsp;&nbsp; † Industry collaborator</p>
+<p class="author-legend">* Student at the time of the research &nbsp;&nbsp; † Industry collaborator</p>
 
 <div id="pub-list">
   <div class="publications">
