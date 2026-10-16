@@ -1305,13 +1305,9 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-// Outlined badges for papers not yet published (no journal link)
-.publications ol.bibliography li .abbr abbr.badge:not(:has(a)) {
+// Outlined badges for papers not yet published (labels not listed in venues.yml)
+.publications ol.bibliography li .abbr abbr.badge-status {
   background-color: transparent;
   border: 1px solid var(--global-theme-color);
   color: var(--global-theme-color);
-
-  div {
-    color: var(--global-theme-color);
-  }
 }
