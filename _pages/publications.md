@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-
+ 
 <style>
   #pub-list h2.bibliography {
     color: var(--global-theme-color);
