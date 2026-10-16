@@ -1309,5 +1309,5 @@ ninja-keys::part(ninja-input-wrapper) {
 .publications ol.bibliography li .abbr abbr.badge-status {
   background-color: transparent;
   border: 1px solid var(--global-theme-color);
-  color: var(--global-theme-color);
+  color: var(--global-theme-color) !important;
 }
